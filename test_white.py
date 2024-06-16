@@ -39,4 +39,3 @@ def test_queryBridgeWords():
     expected_path = [new_list.index("park"),new_list.index("shop")]
     result = queryBridgeWords(start_word, end_word)
     assert result == expected_path, "测试失败：未返回所有桥接词"
-    

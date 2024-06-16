@@ -27,4 +27,3 @@ def test_calcShortestPath(start, end, expected):
 
     # 根据期望结果进行断言
     assert (path, distance) == expected
-     
